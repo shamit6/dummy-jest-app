@@ -7,3 +7,7 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it('simple cehck', () => {
+  expect(1).toBe(1)
+});
