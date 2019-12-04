@@ -9,5 +9,5 @@ it('renders without crashing', () => {
 });
 
 it('simple cehck', () => {
-  expect(1).toBe(1)
+  expect(1).toBe(2)
 });
