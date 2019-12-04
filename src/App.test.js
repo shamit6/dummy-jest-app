@@ -9,5 +9,6 @@ it('renders without crashing', () => {
 });
 
 it('simple cehck', () => {
-  expect(1).toBe(2)
+  const number = Math.floor((Math.random() * 2) + 1);
+  expect(number).toBe(2);
 });

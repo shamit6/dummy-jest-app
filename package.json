@@ -129,7 +129,7 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ],
-    "reporters": ["default", "<rootDir>/node_modules/jest-github-reporter/dist/index.js"]
+    "reporters": ["default", "jest-github-reporter"]
   },
   "babel": {
     "presets": [
