@@ -7,3 +7,8 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it('simple cehck', () => {
+  const number = Math.floor((Math.random() * 2) + 1);
+  expect(number).toBe(2);
+});

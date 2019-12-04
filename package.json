@@ -128,11 +128,15 @@
     "watchPlugins": [
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
-    ]
+    ],
+    "reporters": ["default", "jest-github-reporter"]
   },
   "babel": {
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "jest-github-reporter": "^0.3.4"
   }
 }
